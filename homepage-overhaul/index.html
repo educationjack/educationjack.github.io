@@ -6,6 +6,15 @@
     <meta name="author" content="Jack Feeney">
     <title>CE Truffaut | Web Developer</title>
     <link href="css/style.css" rel="stylesheet" type="text/css">
+    <style>
+      /* Sidebar sticky fix */
+      nav {
+        position: sticky;
+        top: 16px;                          /* how far from the top it stays */
+        max-height: calc(100vh - 32px);     /* keeps it within viewport height */
+        overflow-y: auto;                   /* sidebar scrolls inside itself if too tall */
+      }
+    </style>
   </head>
 
   <body id="top">
@@ -16,7 +25,6 @@
 
     <!-- NAVIGATION BAR -->
     <nav>
-      <!-- image before the <ul> with alt text -->
       <img src="/homepage-overhaul/images/patricia-frost-125-edited-medium.jpg" alt="Portrait of Patricia Frost">
       <ul>
         <li><a href="letter-markup">Letter Markup</a></li>
@@ -117,7 +125,6 @@
 
       <!-- ASIDE -->
       <aside>
-        <!-- FIGURE 1 -->
         <figure class="fig-1">
           <img src="/homepage-overhaul/images/puddle-1-medium.jpg" alt="Reflection in a street puddle with nearby buildings">
           <figcaption>
@@ -127,7 +134,6 @@
           </figcaption>
         </figure>
 
-        <!-- FIGURE 2 -->
         <figure class="fig-2">
           <img src="/homepage-overhaul/images/puddle-2-medium.jpg" alt="Puddle reflecting trees and sky">
           <figcaption>

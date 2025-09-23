@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
+
   <header>
     <h1>Planets Data</h1>
   </header>
@@ -16,11 +17,21 @@
     <table>
       <caption>
         Data about the planets of our solar system (Planetary facts taken from
-        <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric</a>).
+        <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet – Metric</a>).
       </caption>
 
       <colgroup>
-        <col span="2"><col><col><col><col><col><col><col><col><col><col>
+        <col span="2" title="Row groups and planet names">
+        <col title="Mass (10^24 kg)">
+        <col title="Diameter (km)">
+        <col title="Density (kg/m^3)">
+        <col title="Gravity (m/s^2)">
+        <col title="Length of day (hours)">
+        <col title="Distance from Sun (10^6 km)">
+        <col title="Mean temperature (°C)">
+        <col title="Number of moons">
+        <col title="Notes">
+        <col title="Image">
       </colgroup>
 
       <thead>
@@ -40,6 +51,7 @@
       </thead>
 
       <tbody>
+        <!-- Terrestrial planets -->
         <tr>
           <th scope="rowgroup" rowspan="4">Terrestrial planets</th>
           <th scope="row">Mercury</th>
@@ -70,6 +82,7 @@
           <td><img src="images/mars.jpg" alt="Mars" width="40" height="40"></td>
         </tr>
 
+        <!-- Jovian planets: Gas giants -->
         <tr>
           <th scope="rowgroup" rowspan="4">Jovian planets</th>
           <th scope="rowgroup" rowspan="2">Gas giants</th>
@@ -87,6 +100,7 @@
           <td><img src="images/saturn.jpg" alt="Saturn" width="40" height="40"></td>
         </tr>
 
+        <!-- Jovian planets: Ice giants -->
         <tr>
           <th scope="rowgroup" rowspan="2">Ice giants</th>
           <th scope="row">Uranus</th>
@@ -103,6 +117,7 @@
           <td><img src="images/neptune.jpg" alt="Neptune" width="40" height="40"></td>
         </tr>
 
+        <!-- Dwarf planets -->
         <tr>
           <th scope="rowgroup">Dwarf planets</th>
           <th scope="row">Pluto</th>
@@ -110,7 +125,9 @@
           <td>153.3</td><td>5906.4</td><td>-225</td><td>5</td>
           <td>
             Declassified as a planet in 2006, but this
-            <a href="http://www.usatoday.com/story/tech/2014/10/02/pluto-planet-solar-system/16578959/">remains controversial</a>.
+            <a href="http://www.usatoday.com/story/tech/2014/10/02/pluto-planet-solar-system/16578959/">
+              remains controversial
+            </a>.
           </td>
           <td><img src="images/pluto.jpg" alt="Pluto" width="40" height="40"></td>
         </tr>

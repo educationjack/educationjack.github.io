@@ -65,15 +65,91 @@ h1 {
     text-align:center;
 }
 
+/* Shared styles for h2–h4 (match h1’s look) */
+h2, h3, h4 {
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+    color: darkred;  /* OK to change, but keep readable */
+    font-family:'Alfa Slab One', Garamond, serif;
+    text-shadow:.09375rem .09375rem .09375rem #000;
+    font-weight: 400; /* normal */
+}
+
+/* h2: 48px font-size, 4px letter-spacing, normal weight (use rem) */
+h2 {
+    font-size: 3rem;          /* 48px */
+    letter-spacing: 0.25rem;  /* 4px */
+}
+
+/* h3: 32px font-size, normal weight */
+h3 {
+    font-size: 2rem;          /* 32px */
+}
+
+/* h4: 24px font-size, 4px letter-spacing, 18px bottom padding, normal weight */
+h4 {
+    font-size: 1.5rem;        /* 24px */
+    letter-spacing: 0.25rem;  /* 4px */
+    padding-bottom: 1.125rem; /* 18px */
+}
+
+/* h5 banner line */
+h5 {
+    font-size: 1rem;          /* 16px */
+    margin-top: 0.25rem;      /* 4px */
+    padding: 0.5rem;          /* 8px all around */
+    background-color: #333;
+    color: #fff;
+    font-weight: 400;         /* normal */
+    text-align: center;       /* match other headings */
+}
 
 /* Section & Paragraph */
 
+section {
+    margin-top: 0.5rem;       /* 8px */
+}
 
+p {
+    margin: 1rem auto;        /* 16px top/bottom, auto left/right */
+    padding: 0 1rem;          /* 0 top/bottom, 16px left/right */
+    width: 90%;
+    text-align: left;
+}
 
 /* Image & Figure */
 
+figure {
+    margin: 0 0 2rem;         /* 32px bottom */
+}
 
+img {
+    width: 100%;
+    margin: 0 auto;           /* 0 top/bottom, auto left/right */
+    max-width: 50rem;         /* 800px */
+    display: block;           /* center with auto margins */
+}
+
+figcaption {
+    padding-top: 0.5rem;      /* 8px */
+    text-align: right;
+}
 
 /* Footer */
+
+footer {
+    padding: 1rem;            /* 16px all around */
+    border-top: 2rem solid #333; /* 32px solid top border */
+}
+
+/* Extra: add space around the symbols inside the h4 heading */
+h4 > span {
+    padding: 0 0.5rem;        /* 0 top/bottom, 8px left/right */
+}
+
+
+
+
 
 

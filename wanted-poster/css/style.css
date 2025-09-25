@@ -1,114 +1,104 @@
-/* fonts */
 @font-face {
-    font-family: Lato;
-    src: url(../fonts/lato-regular.ttf);
+  font-family: Lato;
+  src: url(../fonts/lato-regular.ttf);
 }
 @font-face {
-    font-family: Alfa Slab One;
-    src: url(../fonts/alfa-slab-one-regular.ttf);
+  font-family: Alfa Slab One;
+  src: url(../fonts/alfa-slab-one-regular.ttf);
 }
 
-/* root font size */
-html {
-    font-size: 16px;
-}
+html { font-size: 16px; }
 
-/* body and main box */
 body {
-    font-family: Lato, Arial, sans-serif;
-    font-size: 1rem;
-    padding: 1rem;
-    min-width: 39rem;
-    max-width: 50rem;
-    margin: 0 auto;
-}
-main {
-    background-color: #ddd;
-    background-image: url(../images/wrinkled-white-paper-background.jpg);
-    background-size: cover;
-    border: 1px solid #333;
+  font-family: Lato, Arial, sans-serif;
+  font-size: 1rem;
+  padding: 1rem;
+  min-width: 39rem;
+  max-width: 50rem;
+  margin: 0 auto;
 }
 
-/* headings */
+main {
+  background-color: #ddd;
+  background-image: url(../images/wrinkled-white-paper-background.jpg);
+  background-size: cover;
+  border: 1px solid #333;
+}
+
 h1 {
-    text-transform: uppercase;
-    font-size: 6rem;
-    margin: 0;
-    letter-spacing: .5rem;
-    color: darkred;
-    text-shadow: .09375rem .09375rem .09375rem #000;
-    font-family: 'Alfa Slab One', Garamond, serif;
-    text-align: center;
+  text-transform: uppercase;
+  font-size: 6rem;
+  margin: 0;
+  letter-spacing: .5rem;
+  color: darkred;
+  text-shadow: .09375rem .09375rem .09375rem #000;
+  font-family: 'Alfa Slab One', Garamond, serif;
+  text-align: center;
 }
 
 h2, h3, h4 {
-    text-transform: uppercase;
-    margin: 0;
-    text-align: center;
-    color: darkred;
-    font-family: 'Alfa Slab One', Garamond, serif;
-    text-shadow: .09375rem .09375rem .09375rem #000;
-    font-weight: normal;
+  text-transform: uppercase;
+  margin: 0;
+  text-align: center;
+  color: darkred;
+  font-family: 'Alfa Slab One', Garamond, serif;
+  text-shadow: .09375rem .09375rem .09375rem #000;
+  font-weight: normal;
 }
 
 h2 {
-    font-size: 3rem;       /* 48px */
-    letter-spacing: .25rem;/* 4px */
+  font-size: 3rem;
+  letter-spacing: .25rem;
 }
 
 h3 {
-    font-size: 2rem;       /* 32px */
+  font-size: 2rem;
 }
 
 h4 {
-    font-size: 1.5rem;     /* 24px */
-    letter-spacing: .25rem;
-    padding-bottom: 1.125rem; /* 18px */
+  font-size: 1.5rem;
+  letter-spacing: .25rem;
+  padding-bottom: 1.125rem;
+}
+
+h4 > span {
+  padding: 0 .5rem;
 }
 
 h5 {
-    font-size: 1rem;       /* 16px */
-    margin-top: .25rem;    /* 4px */
-    padding: .5rem;        /* 8px all sides */
-    background-color: #333;
-    color: #fff;
-    font-weight: normal;
-    text-align: center;
+  font-size: 1rem;
+  margin-top: .25rem;
+  padding: .5rem;
+  background-color: #333;
+  color: #fff;
+  font-weight: normal;
+  text-align: center;
 }
 
-/* sections and paragraphs */
-section {
-    margin-top: .5rem;     /* 8px */
-}
+section { margin-top: .5rem; }
+
 p {
-    margin: 1rem auto;     /* 16px top/bottom */
-    padding: 0 1rem;       /* 16px sides */
-    width: 90%;
-    text-align: left;
+  margin: 1rem auto;
+  padding: 0 1rem;
+  width: 90%;
+  text-align: left;
 }
 
-/* figure and image */
-figure {
-    margin: 0 0 2rem;      /* 32px bottom */
-}
+figure { margin: 0 0 2rem; }
+
 img {
-    width: 100%;
-    margin: 0 auto;
-    max-width: 50rem;      /* 800px */
-    display: block;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 50rem;
+  display: block;
 }
+
 figcaption {
-    padding-top: .5rem;    /* 8px */
-    text-align: right;
+  padding-top: .5rem;
+  text-align: right;
 }
 
-/* footer */
 footer {
-    padding: 1rem;         /* 16px */
-    border-top: 2rem solid #333; /* 32px */
-}
-
-/* spacing for stars in h4 */
-h4 > span {
-    padding: 0 .5rem;      /* 8px sides */
+  padding: 1rem;
+  border-top: 2rem solid #333;
 }

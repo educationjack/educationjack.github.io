@@ -9,11 +9,7 @@ body {
   line-height: 1.6;
 }
 
-header {
-  border-bottom: 1px solid #333;
-  margin-bottom: 32px;
-  padding-bottom: 16px;
-}
+header { border-bottom: 1px solid #333; margin-bottom: 32px; padding-bottom: 16px; }
 h1 { margin: 0; font-size: 56px; font-weight: normal; color: #333; }
 h1 span { color: #8C2B3F; }
 h2 { font-size: 28px; margin: 0 0 8px; font-weight: normal; }
@@ -76,16 +72,15 @@ figcaption a:hover { color: #90a7cc; text-decoration: none; }
 a { color: darkblue; }
 a:hover { text-decoration: none; color: #495F83; }
 
-footer {
-  clear: both;
-  margin: 24px 2%;
-  border-top: 1px solid #333;
-  padding-top: 8px;
-}
+footer { clear: both; margin: 24px 2%; border-top: 1px solid #333; padding-top: 8px; }
 .return { font-size: 14px; }
 .copyright { font-size: 14px; text-align: right; }
+
+header, h1, h1 span { font-style: normal !important; transform: none !important; }
+h1 { font-family: Arial, Helvetica, sans-serif; font-weight: 400; letter-spacing: 0; line-height: 1.1; }
 
 @media (max-width: 800px) {
   nav { position: static; width: 100%; height: auto; border-right: none; }
   main { margin-left: 0; }
-  .fig-1, .fig-2 { floa
+  .fig-1, .fig-2 { float: none; width: 100%; margin: 0; }
+}

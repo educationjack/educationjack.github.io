@@ -75,7 +75,10 @@ h5 {
   text-align: center;
 }
 
-section { margin-top: .5rem; }
+section {
+  width: 90%;
+  margin: .5rem auto;
+}
 
 p {
   margin: 1rem auto;
